@@ -1,5 +1,15 @@
 @media (min-width: 900px) { 
 
+    main {
+
+        margin-top:80px;
+        margin:0 auto;
+        width:80%;
+        
+
+
+    }
+
 
 
     body {
