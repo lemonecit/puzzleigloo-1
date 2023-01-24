@@ -1,53 +1,43 @@
-@media (min-width: 900px) { 
-
-
-    .mobilMenu {
-
-        display: hidden;
-
-    }
+@media (max-width: 600px) { 
 
 
     main {
 
-        /* margin-top:80px; */
-        margin-top:80px;
+
         width:80%;
-
-
+        margin:0 auto;
 
     }
 
 
 
-    body {
-    
-     margin:0;
-     padding:0;
-     font-family:loto;
-     
-    
-    
-    }
-    
-    header {
-        height:80px;
+body {
 
-        width:100%;
-        position:fixed;
-        top:0;
-        background-color:red;
-    
-    }
-    
-    
-    footer {
-    
-        height:100px;
-        width:100%;
-        position:Fixed;
-        bottom:0;
-        background-color:red;
-    }
-    
-    }
+ margin:0;
+ padding:0;
+ font-family:loto;
+ 
+
+
+}
+
+header {
+    height: 58px;
+    width:100%;
+    position:fixed;
+    top:0;
+    background-color:red;
+
+}
+
+
+footer {
+
+    height:100px;
+    width:100%;
+    position:Fixed;
+    bottom:0;
+    background-color:red;
+}
+
+}
