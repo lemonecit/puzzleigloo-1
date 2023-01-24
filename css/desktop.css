@@ -1,5 +1,13 @@
 @media (min-width: 900px) { 
 
+
+    .mobilMenu {
+
+        display: hidden;
+
+    }
+
+
     main {
 
         /* margin-top:80px; */
