@@ -2,6 +2,7 @@
 
 
 main {
+    min-height:500px;
 width:80%;
 margin:0 auto;
 
@@ -20,9 +21,9 @@ header {
 margin: 0 auto;
 align-content: center;
 /* DISPLAY: FLEX; */
-height: 70px;
+/* height: 70px; */
 width: 100%;
-position: fixed;
+position: sticky;
 top: 0;
 background-color: #CE2E18;
 /* JUSTIFY-CONTENT: center;*/
@@ -90,10 +91,29 @@ color:black;
 display:block;
 }
 
+.sectionForMenu {
+
+display:block;
+/* height:115px; */
+
+}
+
+.sectionForMenu aside {
+
+    display:block;
+
+}
+
+.sectionForMenu aside h2 {
+
+text-align: center;
+
+}
+
 .category {
 
 width:100%;
-height:52px;
+/* height:52px; */
 margin:0 auto;
 
 }
@@ -148,6 +168,8 @@ text-decoration: none;
 .video {
 
 width:100%;
+overflow:hidden;
+height:350px;
 
 
 }
@@ -155,13 +177,34 @@ width:100%;
 
 
  video {
-top: 100px;
-position: relative;
-right: 0;
-bottom: 0;
-max-width: 100%;
-min-height: 100%;
+    bottom: 0;
+    /* MIN-WIDTH: 100%; */
+    /* top: -22px; */
+    position: relative;
+    right: 0;
+    margin: 0 AUTO;
+    max-width: 100%;
+    min-height: 100%;
 
+
+}
+
+.productgallery {
+    margin-top:10px;
+    padding:20px;
+
+width: 60%;
+margin:0 auto;
+text-align: center;
+display:block;
+
+}
+
+
+
+.productgallery img {
+
+    width:125px;
 }
 
 .logo {
@@ -220,7 +263,7 @@ width:200px;
 
 .right_footer {
 
-width:200px;
+width:230px;
 
 }
 
@@ -229,7 +272,7 @@ width:200px;
     align-items: center;
     /* line-height: 29px; */
     margin-bottom: 5px;
-    /* margin: 0; */
+    margin-top:5px;
     display: flex;
     justify-content: space-around;
     padding: 0;
@@ -279,6 +322,206 @@ footer img {
 width:25px;
 
 }
+
+.categoryTitle {
+
+height:20px;
+
+}
+
+/* for fullist page */
+
+.listRow {
+    
+    justify-content: center;
+width:80%;
+margin:0 auto;
+display:flex;
+height:225px;
+
+}
+
+.listRow ul {
+    justify-content: center;
+display: inline-flex;
+width:100%;
+list-style-type: none;
+
+
+}
+
+.listRow ul li {
+padding:5px;
+
+
+}
+
+.listRow img {
+
+width:100px;
+
+}
+
+.listRow a {
+
+
+
+}
+
+.listRow .productName {
+text-align: center;
+display:block;
+
+}
+
+.listRow .productPris {
+    text-align: center;
+    display:block;
+    
+    }
+
+    .fullListMain h3 {
+
+text-align: center;
+font-size:24px;
+
+    }
+
+    .addInCart_LT {
+        color:white;
+        margin-right:50px;
+
+    }
+
+    .addInCart_RT input {
+        width:200px;
+        display:flex;
+        justify-content:space-around;
+        align-content: center;
+        padding:15px;
+        background-color:white;
+
+    }
+
+    .iconInInput {
+        
+        background-position-x: 7px;
+        background-position-y: center;
+        padding-left: 25px;
+        background-image: url(../pics/shopping-cart_black.png);
+        background-size: 25px;
+        background-repeat: no-repeat;
+     
+      
+    }
+
+    .productContent {
+        width:45%;
+        margin:0 auto;
+        justify-content: center;
+        display: flex;
+    }
+    .detailDescription {
+
+        margin-left:50px;
+
+    }
+
+    .detailDescription span {
+
+      display:block;
+
+    }
+
+    .ProductNameTitle h2 {
+
+        text-align: center;
+    }
+
+    
+    .productDetail {
+
+        position:relative;
+        top:150px;
+
+    }
+
+    .addInCart {
+        border:1px solid black;
+        display: flex;
+        background-color: #CE2E18;
+        padding: 20px;
+    }
+
+    /* varukort sida */
+
+    .cart_layout {
+
+        width:50%;
+        margin:0 auto;
+        position:relative;
+        top:125px;
+
+    }
+
+    .cart_details {
+border:1px solid black;
+display:inline-flex;
+justify-content: center;
+
+
+
+    }
+
+    .cart_fullWidth {
+
+        width:100%;
+        background-color:black;
+        color:white;
+        padding:10px;
+
+    }
+
+    .cart_MD {
+        width:25%;
+        padding:10px;
+
+    }
+    .cart_MD span{
+     
+        display:block;
+
+    }
+
+
+    .cart_RT {
+        width:25%;
+        padding:10px;
+
+    }
+    .cart_RT span{
+     
+        display:block;
+
+    }
+
+    /* shipping sida */
+
+    .payment_details {
+
+        width:80%;
+        margin:0 auto;
+
+    }
+
+    .payment_details label {
+
+
+        display:block;
+    }
+
+
+    
 
 
 
