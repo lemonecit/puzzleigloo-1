@@ -4,6 +4,7 @@
 main {
 width:80%;
 margin:0 auto;
+
 }
 
 
@@ -11,7 +12,8 @@ margin:0 auto;
 body {
 margin:0;
 padding:0;
-font-family:loto;
+font-family: 'Roboto Condensed', sans-serif;
+
 }
 
 header {
@@ -70,10 +72,12 @@ padding: 5px;
 }
 
 .desktopMenu a {
-
+    letter-spacing: 2px;
+    text-transform: uppercase;
+font-weight: 600;
 margin: 0;
 border-radius: 5px;
-background: #60B99A;
+/* background: #60B99A; */
 color: #fff;
 display: block;
 padding: 15px;
@@ -200,6 +204,52 @@ align-items: center;
 
 }
 
+.left_footer {
+
+width:200px;    
+
+}
+
+.right_footer {
+
+width:200px;
+
+}
+
+.right_footer_steps {
+    width:65%;
+    align-items: center;
+    /* line-height: 29px; */
+    margin-bottom: 5px;
+    /* margin: 0; */
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+
+
+}
+
+.right_footer_steps a {
+    text-decoration: none;
+    background-color: #adadad;
+    padding: 5px;
+    color: white;
+
+}
+
+.left_footer_steps {
+    width:56%;
+    align-items: center;
+    /* line-height: 29px; */
+    margin-bottom: 10px;
+    /* margin: 0; */
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+
+
+}
+
 .address_footer {
 width:20%; 
 
@@ -218,7 +268,7 @@ width:20%;
 
 footer img {
 
-width:30px;
+width:25px;
 
 }
 
