@@ -2,7 +2,7 @@
 
 
 main {
-    min-height:500px;
+    min-height:700px;
 width:80%;
 margin:0 auto;
 
@@ -11,6 +11,7 @@ margin:0 auto;
 
 
 body {
+   
 margin:0;
 padding:0;
 font-family: 'Roboto Condensed', sans-serif;
@@ -540,7 +541,7 @@ justify-content: center;
     }
 
     .payment_details input {
-        margin-bottom:10px;
+        /* margin-bottom:10px; */
         background-color:#f5f2f2;
         padding:5px;
         width: 300px;
@@ -597,7 +598,7 @@ display:block;
 
 .longField {
    margin:0 auto;
-   width:82%;
+   /* width:82%; */
     display:block;
 }
 
@@ -609,12 +610,42 @@ display:block;
 
 .longField aside {
 
-padding:5px;
+/* padding:5px; */
 
 }
 
 .longField input {
-    width: 98%;
+    width: 99%;
+}
+
+.longField label {
+
+
+    font-size:12px;
+    font-weight:500;
+
+}
+
+/* for confirmation page */
+
+.forConfirmation {
+text-align: center;
+    margin:0 auto; 
+    width:50%;
+
+
+
+}
+
+.forConfirmation h3 {
+
+    text-align:center;
+}
+
+.forConfirmation img {
+
+    text-align: center;
+
 }
 
     
