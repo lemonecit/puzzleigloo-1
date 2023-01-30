@@ -42,6 +42,13 @@
 
 
 <article class="forShipping">
+    <ul class="process">
+        <li><a href="cart.html"><img src="pics/one.png" alt=""><label for="">Varukorg</label></img></a></li>
+        <li><a href="shipping.html"><img src="pics/two.png" alt=""><label for="">Kassa</label></img></a></li>
+        <li><a href="payment.html"><img src="pics/three.png" alt=""><label for="">Leverans & betalning</label></img></a></li>
+        <li><a href=""><img src="pics/unchecked_four.png" alt=""><label for="">Betalning klar</label></img></a></li>
+
+    </ul>
     <h3>Betalningsdetalj</h3>
 
     <form action="confirmation.html">
@@ -86,7 +93,15 @@
     <section class="twoSides">
         <aside class="">
             <label for="tfn">Betalningsmetod*</label>
-            <input type="text" name="tfn">
+          
+        
+            <select id="antal" name="antal" class="dropdown">
+                <option value="1">Mastercard</option>
+                <option value="2">Visa</option>
+                <option value="3">AmericanCard</option>
+                
+              </select>
+        
         </aside>
         <aside>
             
@@ -114,12 +129,12 @@
             
         </aside>
     </section>
+    <input type="submit" value="Bekräfta betalning">
 
 </section>
 
 
 
-<input type="submit" value="Bekräfta betalning">
 
 </section>
 

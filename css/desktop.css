@@ -458,27 +458,79 @@ font-size:24px;
 
     .cart_layout {
 
-        width:50%;
+        width:60%;
         margin:0 auto;
         position:relative;
         top:125px;
 
     }
 
-    .cart_details {
-border:1px solid black;
-display:inline-flex;
-justify-content: center;
 
-
+    .cart_layout .rubrik {
+text-align:center;
+margin:0 auto;
 
     }
 
+    .cart_layout ul {
+        margin:0 auto;
+        justify-content: space-around;
+        width: 80%;
+        display: inline-flex;
+        align-items: center;
+
+    }
+
+    .cart_layout ul li {
+        list-style-type: none;
+        
+         }
+
+    .cart_layout label {
+        margin-left:5px;
+        align-self:center;
+    }
+
+    .cart_layout img {
+
+        width:45px;
+    }
+
+    .cart_LT img {
+
+        width:100px;
+    }
+
+    .cart_container {
+
+        width:60%;
+        margin:0 auto;
+
+    }
+
+    .cart_layout ul li a {
+        display:flex;
+       text-decoration: none;
+         }
+
+
+        .cart_details {
+        border:1px solid black;
+        display:flex;
+        justify-content: center;
+        }
+
     .cart_fullWidth {
 
-        width:100%;
+        /* width:100%; */
         background-color:black;
         color:white;
+        padding:10px;
+
+    }
+
+    .cart_LT {
+        width:25%;
         padding:10px;
 
     }
@@ -496,10 +548,15 @@ justify-content: center;
 
 
     .cart_RT {
-        width:25%;
+        width:35%;
         padding:10px;
 
     }
+
+    /* .cart_RT input[type="submit"] {
+        width: 85px;
+    } */
+
     .cart_RT span{
      
         display:block;
@@ -509,11 +566,9 @@ justify-content: center;
     /* shipping sida */
 
     .forShipping {
-
+        text-align: center;
         margin:0 auto;
-        width:80%;
-
-
+        width:60%;
     }
 
     .forShipping h3 {
@@ -523,7 +578,7 @@ justify-content: center;
 
     .payment_details {
 
-        width:80%;
+        width:auto;
         margin:0 auto;
 
     }
@@ -553,6 +608,37 @@ justify-content: center;
 
     }
 
+   
+
+    .forShipping ul {
+        justify-content: space-around;
+        width: 80%;
+        display: inline-flex;
+        align-items: center;
+
+    }
+
+    .forShipping ul li {
+   list-style-type: none;
+   
+    }
+
+    .forShipping label {
+        margin-left:5px;
+        align-self:center;
+    }
+
+    .forShipping img {
+
+        width:45px;
+    }
+
+    .forShipping ul li a {
+        display:flex;
+       text-decoration: none;
+         }
+
+
 /* for payment page */
 
 
@@ -575,6 +661,7 @@ display: flex;
 }
 
 input[type="submit"]{
+    border-radius:15px;
 background-color:#CE2E18;
 color:white;
 display: block;
@@ -592,13 +679,14 @@ justify-content: center;
 }
 
 .twoSides label {
+    text-align: left;
 display:block;
 
 }
 
 .longField {
    margin:0 auto;
-   /* width:82%; */
+   width:68%;
     display:block;
 }
 
@@ -642,14 +730,50 @@ text-align: center;
     text-align:center;
 }
 
-.forConfirmation img {
-
+.process img {
+    width:45px;
     text-align: center;
 
 }
 
-    
+.forConfirmation ul {
+    justify-content: space-around;
+    width: 80%;
+    display: inline-flex;
+    align-items: center;
 
+}
+
+.forConfirmation ul li {
+    list-style-type: none;
+    
+     }
+
+.forConfirmation label {
+    margin-left:5px;
+    align-self:center;
+}
+
+
+.forConfirmation ul li a {
+    display:flex;
+   text-decoration: none;
+     }
+
+.bildIcentrum {
+
+width:100px;
+
+}
+    
+.dropdown {
+border:1px solid  black;
+width:300px;
+background-color:#f5f2f2;
+border-radius:15px;
+padding:5px;
+
+}
 
 
 }
