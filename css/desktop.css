@@ -507,6 +507,19 @@ justify-content: center;
 
     /* shipping sida */
 
+    .forShipping {
+
+        margin:0 auto;
+        width:80%;
+
+
+    }
+
+    .forShipping h3 {
+
+        text-align: center;
+    }
+
     .payment_details {
 
         width:80%;
@@ -519,6 +532,56 @@ justify-content: center;
 
         display:block;
     }
+
+    .payment_details label {
+
+        padding:5px;
+
+    }
+
+    .payment_details input {
+        margin-bottom:10px;
+        background-color:#f5f2f2;
+        padding:5px;
+        width: 300px;
+        border-radius: 15px;
+        height: 25px;
+        border: 2px solid grey;
+        font-size:14px;
+        text-indent: 5px;
+
+    }
+
+/* for payment page */
+
+
+.formular {
+
+display: flex;
+
+}
+
+.formular label {
+
+    font-size:12px;
+    font-weight:500;
+
+}
+
+.formular aside {
+    padding:10px;
+
+}
+
+input[type="submit"]{
+margin-top:50px;
+display: block;
+width:80%;
+height:40px;
+font-size:18px;
+
+
+}
 
 
     

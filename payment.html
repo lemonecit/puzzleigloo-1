@@ -39,25 +39,48 @@
 </nav>
 </header>
 <main>
-<h3>Betalningsdetalj</h3>
 
-<article>
 
-<section>
+<article class="forShipping">
+    <h3>Betalningsdetalj</h3>
+<section class="payment_details">
 
-    <form action="confirmation.html">
+    <form action="confirmation.html" >
+        <section class="formular">
 
-        <label for="name" value="Ditt namn">
-            <input type="text" name="name">
-        </label>
-        <label for="surName">
-            <input type="text" name="surName">
-        </label>
-        <label for="address">
-            <input type="text" name="address">
-        </label>
+            <aside>
+                <label for="name" value="Ditt namn">Namn*</label>
+                <input type="text" name="name">
+                <label for="address">Adress*</label>
+                <input type="text" name="address">
+                <label for="Postnummer">Postnummer*</label>
+                <input type="text" name="postnr">
+                <label for="tfn">Telefonnummer*</label>
+                <input type="text" name="tfn">
+            </aside>
+            <aside>
+                
+                <label for="surName">Efternamn*</label>
+                <input type="text" name="surName">
+                
+                
+                
+                <label for="stad">Stad*</label>
+                <input type="text" name="stad">
+                
+                <label for="mail">E-post*</label>
+                <input type="email" name="mail">
+                
+            </aside>
 
-        <input type="submit" value="Bekräfta beställning">
+            
+            
+        </section>
+            
+            
+            
+    
+        <input type="submit" value="Forsätt till nästa">
 
     </form>
 
