@@ -561,28 +561,60 @@ display: flex;
 
 }
 
-.formular label {
+.twoSides label {
 
     font-size:12px;
     font-weight:500;
 
 }
 
-.formular aside {
-    padding:10px;
+.twoSides aside {
+    padding:5px;
 
 }
 
 input[type="submit"]{
-margin-top:50px;
+background-color:darkgray;
 display: block;
-width:80%;
+width:82%;
 height:40px;
 font-size:18px;
+margin:20px auto  0  auto;
 
 
 }
 
+.twoSides {
+justify-content: center;
+    display:flex;
+}
+
+.twoSides label {
+display:block;
+
+}
+
+.longField {
+   margin:0 auto;
+   width:82%;
+    display:block;
+}
+
+.longField label {
+
+display:block;
+
+}
+
+.longField aside {
+
+padding:5px;
+
+}
+
+.longField input {
+    width: 98%;
+}
 
     
 

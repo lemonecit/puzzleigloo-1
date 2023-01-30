@@ -45,78 +45,60 @@
     <h3>Din faktueringsadress</h3>
 <section class="payment_details">
 
-    <form action="payment.html" >
-        <section class="formular">
+    <form action="payment.html">
 
-            <aside>
-                <label for="name" value="Ditt namn">Namn*</label>
-                <input type="text" name="name">
-                <label for="address">Adress*</label>
-                <input type="text" name="address">
-                <label for="Postnummer">Postnummer*</label>
-                <input type="text" name="postnr">
-                <label for="tfn">Telefonnummer*</label>
-                <input type="text" name="tfn">
-            </aside>
-            <aside>
-                
-                <label for="surName">Efternamn*</label>
-                <input type="text" name="surName">
-                
-                
-                
-                <label for="stad">Stad*</label>
-                <input type="text" name="stad">
-                
-                <label for="mail">E-post*</label>
-                <input type="email" name="mail">
-                
-            </aside>
-
-            
-            
-        </section>
-            
-            
-            
+        
+        <section class="payment_details">
+            <section class="twoSides">
+                <aside class="">
+                    <label for="name">Namn*</label>
+                    <input type="text" name="name">
+                </aside>
+<aside>
     
-        <input type="submit" value="Forsätt till nästa">
-
-    </form>
+    <label for="Sname">Efternamn*</label>
+    <input type="text" name="Sname">
+</aside>
+</section>
+<section class="longField">
+    <aside>
+        <label for="address">Adress* (gatunamn och husnummer)</label>
+        <input type="text" name="address">
+        
+    </aside>
 
 </section>
 
-</article>
-
-
-</main>
-
-<footer>
-<section class="footer_flex">
-
-<aside class="address_footer">
-
-    <aside class="left_footer">
-        <aside class="left_footer_steps"><img src="pics/info.png" alt="" name="info"><label for="info">Om oss</label></aside>
-        <aside><span>Strandvägen 6</span></aside>
-        <aside><span>19940 STOCKHOLM</span></aside>
+<section class="twoSides">
+    <aside class="">
+        <label for="pnr">Postnummer*</label>
+        <input type="text" name="pnr">
     </aside>
-
-</aside>
-
-<aside class="empty_space_footer"></aside>
-
-
-<aside class="contact_footer">
-    <aside class="right_footer">
-        <aside><span>Kontakta oss</span></aside>
-        <aside class="right_footer_steps"><img src="pics/mail .png" alt="" name="info"><label for="info"><a href="mailto:kundtjanst@puzzleigloo.se">Skicka epost</a></label></aside>
-        <aside class="right_footer_steps"><img src="pics/telephone.png" alt="" name="info"><label for="info">08-xxx xx xx</label></aside>
+    <aside>
+        
+        <label for="city">Stad*</label>
+        <input type="text" name="city">
     </aside>
-</aside>
+</section>
+<section class="twoSides">
+    <aside class="">
+        <label for="tfn">Telefonnummer*</label>
+        <input type="text" name="tfn">
+    </aside>
+    <aside>
+        
+        <label for="mail">E-post*</label>
+        <input type="text" name="mail">
+    </aside>
+</section>
+
+
+
+<input type="submit" value="Forsätt till nästa">
 
 </section>
 
+</form>
 
 
 </footer>
