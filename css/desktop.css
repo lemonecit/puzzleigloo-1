@@ -574,7 +574,8 @@ display: flex;
 }
 
 input[type="submit"]{
-background-color:darkgray;
+background-color:#CE2E18;
+color:white;
 display: block;
 width:82%;
 height:40px;
