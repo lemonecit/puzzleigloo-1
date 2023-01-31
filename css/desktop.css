@@ -1,4 +1,4 @@
-@media (min-width: 800px) { 
+@media (min-width: 1200px) { 
 
 
 main {
@@ -409,8 +409,9 @@ font-size:24px;
         display:flex;
         justify-content:space-around;
         align-content: center;
-        padding:15px;
+        /* padding:15px; */
         background-color:white;
+        border:1px solid white;
 
     }
 
@@ -422,6 +423,7 @@ font-size:24px;
         background-image: url(../pics/shopping-cart_black.png);
         background-size: 25px;
         background-repeat: no-repeat;
+        background-color:white;
      
       
     }
@@ -711,9 +713,10 @@ display:block;
 }
 
 .longField {
-   margin:0 auto;
-   width:auto;
-    display:block;
+    justify-content: center;
+   /* margin:0 auto;
+   width:auto; */
+    display:flex;
 }
 
 .longField label {
@@ -729,7 +732,7 @@ display:block;
 }
 
 .longField input {
-    width: 85%;
+    width: 633px;
 }
 
 .longField label {
