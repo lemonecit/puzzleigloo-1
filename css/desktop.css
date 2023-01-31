@@ -691,7 +691,7 @@ input[type="submit"]{
 background-color:#CE2E18;
 color:white;
 display: block;
-width:82%;
+width:88%;
 height:40px;
 font-size:18px;
 margin:20px auto  0  auto;
@@ -712,7 +712,7 @@ display:block;
 
 .longField {
    margin:0 auto;
-   width:68%;
+   width:auto;
     display:block;
 }
 
@@ -729,7 +729,7 @@ display:block;
 }
 
 .longField input {
-    width: 99%;
+    width: 85%;
 }
 
 .longField label {
@@ -745,9 +745,16 @@ display:block;
 .forConfirmation {
 text-align: center;
     margin:0 auto; 
-    width:50%;
+    width:60%;
 
 
+
+}
+
+.forConfirmation form {
+
+width:55%;
+margin:0 auto;
 
 }
 
