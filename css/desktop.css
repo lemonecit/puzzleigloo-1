@@ -19,15 +19,17 @@ font-family: 'Roboto Condensed', sans-serif;
 }
 
 header {
-margin: 0 auto;
-align-content: center;
-/* DISPLAY: FLEX; */
-/* height: 70px; */
-width: 100%;
-position: sticky;
-top: 0;
-background-color: #CE2E18;
-/* JUSTIFY-CONTENT: center;*/
+
+    z-index:100;
+    margin: 0 auto;
+    align-content: center;
+    /* DISPLAY: FLEX; */
+    /* height: 70px; */
+    width: 100%;
+    position: sticky;
+    top: 0;
+    background-color: #CE2E18;
+    /* JUSTIFY-CONTENT: center;*/
 
 }
 
@@ -389,8 +391,16 @@ font-size:24px;
     }
 
     .addInCart_LT {
+        width:30%;
         color:white;
         margin-right:50px;
+
+    }
+
+    .addInCart_RT {
+        width:70%;
+        color:white;
+        
 
     }
 
@@ -417,15 +427,15 @@ font-size:24px;
     }
 
     .productContent {
-        width:45%;
+        width:80%;
         margin:0 auto;
         justify-content: center;
         display: flex;
     }
+
     .detailDescription {
-
+        width:40%;
         margin-left:50px;
-
     }
 
     .detailDescription span {
@@ -448,10 +458,26 @@ font-size:24px;
     }
 
     .addInCart {
-        border:1px solid black;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid black;
         display: flex;
         background-color: #CE2E18;
-        padding: 20px;
+        padding: 10px;
+        width: 100%;    
+    }
+
+    .addInCart input[type="submit"] {
+
+        border-radius:15px;
+        background-color:#CE2E18;
+        color:white;
+        display: block;
+        width:82%;
+        height:40px;
+        font-size:18px;
+        margin:0 auto  0  auto;
+
     }
 
     /* varukort sida */
