@@ -33,6 +33,12 @@ header {
 
 }
 
+.header_mobile {
+
+    display: none;
+
+}
+
 .desktopMenu nav {
 
 display: flex;
