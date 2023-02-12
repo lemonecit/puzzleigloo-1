@@ -198,117 +198,121 @@ height:350px;
 
 }
 
-.productgallery {
-    margin-top:10px;
-    padding:20px;
-
-width: 60%;
-margin:0 auto;
-text-align: center;
-display:block;
-
-}
-
-
-
-.productgallery img {
-
-    width:125px;
-}
-
-.logo {
-margin:0 auto;
-
-}
-
-.cart {
-
-margin:0 auto;
-}
-
-.logo img {
-
-width:72px;
-}
-
-.cart img {
-
-width:40px;
-
-}
-
-.head_menu {
-width:50%;
-
-}
-
-
-footer {
-    height:100px;
-    width:100%;
-    position:Fixed;
-    bottom:0;
-    background-color:#CE2E18;
-    color:white;
+    .productgallery {
+        margin-top:10px;
+        padding:20px;
+        width: 60%;
+        margin:0 auto;
+        text-align: center;
+        display:block;
     }
-    
-
-.footer_flex {
-HEIGHT:100%;
-display:flex;
-width:50%;
-margin:0 auto;
-
-justify-content: space-between;
-align-items: center;
-
-}
-
-.left_footer {
-
-width:200px;    
-
-}
-
-.right_footer {
-
-width:230px;
-
-}
-
-.right_footer_steps {
-    width:65%;
-    align-items: center;
-    /* line-height: 29px; */
-    margin-bottom: 5px;
-    margin-top:5px;
-    display: flex;
-    justify-content: space-around;
-    padding: 0;
 
 
-}
+    .productgallery img {
+        height: 200px;
+        width: 150px;
+        z-index: 0;
+    }
 
-.right_footer_steps a {
-    text-decoration: none;
-    background-color:#adadad85;
-    padding: 5px;
-    color: white;
-
-}
-
-.left_footer_steps {
-    width:56%;
-    align-items: center;
-    /* line-height: 29px; */
-    margin-bottom: 10px;
-    /* margin: 0; */
-    display: flex;
-    justify-content: space-around;
-    padding: 0;
+    .productgallery ul {
+        margin:0;
+        padding:0;
+        display: flex;
+        flex-direction: row;
 
 
-}
+    }
+
+    .productgallery li {
+        padding:5px;
+        display:flex;
+        flex-direction: column;
+        list-style-type: none;
+
+    }
+
+    .productgallery li:hover {
+        background-color:black;
+        z-index: 300;
+
+    }
+
+    .logo {
+        margin:0 auto;
+    }
+
+    .cart {
+        margin:0 auto;
+    }
+
+    .logo img {
+        width:72px;
+    }
+
+    .cart img {
+        width:40px;
+    }
+
+    .head_menu {
+        width:50%;
+    }
+
+
+    footer {
+        height:100px;
+        width:100%;
+        position:Fixed;
+        bottom:0;
+        background-color:#CE2E18;
+        color:white;
+    }
+
+
+    .footer_flex {
+        HEIGHT:100%;
+        display:flex;
+        width:50%;
+        margin:0 auto;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .left_footer {
+        width:200px;    
+    }
+
+    .right_footer {
+       width:230px;
+    }
+
+    .right_footer_steps {
+        width:65%;
+        align-items: center;
+        /* line-height: 29px; */
+        margin-bottom: 5px;
+        margin-top:5px;
+        display: flex;
+        justify-content: space-around;
+        padding: 0;
+    }
+
+    .right_footer_steps a {
+        text-decoration: none;
+        background-color:#adadad85;
+        padding: 5px;
+        color: white;
+    }
+
+    .left_footer_steps {
+        width:56%;
+        align-items: center;
+        /* line-height: 29px; */
+        margin-bottom: 10px;
+        /* margin: 0; */
+        display: flex;
+        justify-content: space-around;
+        padding: 0;
+    }
 
 .address_footer {
 width:20%; 
@@ -367,15 +371,12 @@ padding:5px;
 
 .listRow img {
 
-width:100px;
+    height: 150px;
+    width: 100px;
 
 }
 
-.listRow a {
 
-
-
-}
 
 .listRow .productName {
 text-align: center;
@@ -387,6 +388,12 @@ display:block;
     text-align: center;
     display:block;
     
+    }
+
+    .fullListMain {
+
+        margin-bottom:100px;
+
     }
 
     .fullListMain h3 {
@@ -814,6 +821,57 @@ width:300px;
 background-color:#f5f2f2;
 border-radius:15px;
 padding:5px;
+
+}
+
+.access {
+
+    position: fixed;
+    top: 92px;
+    left: 1px;
+}
+
+.access img {
+
+width:50px;
+height:50px;
+
+}
+
+.aboutus {
+
+    WIDTH: 50%;
+    MARGIN: 0 AUTO;
+
+}
+
+.conus {
+
+    LINE-HEIGHT: 41PX;
+    WIDTH: 50%;
+    MARGIN: 0 AUTO;
+}
+
+.conus .fCon {
+    WIDTH: 30%;
+    MARGIN: 0 AUTO;
+    PADDING: 10PX;
+
+
+
+}
+
+.conus span {
+
+display: block;
+
+}
+
+
+.conus .map {
+
+    WIDTH: 85%;
+    MARGIN: 0 AUTO;
 
 }
 

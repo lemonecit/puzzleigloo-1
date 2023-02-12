@@ -7,27 +7,54 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/mobile.css">
+        <!-- styles -->
+        <link rel="stylesheet" href="css/mobile.css">
+        <link rel="stylesheet" href="css/tablet.css">
+        <link rel="stylesheet" href="css/desktop.css">
+    <!-- end of style  -->
 
-<link rel="stylesheet" href="css/desktop.css">
-
-<title>Document</title>
+<title>PuzzleIgloo - Kassa</title>
+<link rel="icon" type="image/x-icon" href="/pics/favicon.ico">
 </head>
 <body>
-    <header class="header_mobile">       
-        <input class="side-menu" type="checkbox" id="side-menu" />
-        <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+    <header class="header_mobile">    
+
+
+        <aside class="cart">
+            <a href="cart.html">
+                <img src="pics/shopping-cart.png" alt="">
+            </a>
+
+        </aside>
+
+            <aside class="logo">
+                <a href="index.html">
+                    <img src="pics/logo.png"/>
+                </a>
+                
+
+            </aside>
         
-        <nav class="nav">
-            <ul>
-                <li><a href="aboutus.html">Om företaget</a></li>
-                <li><a href="">Kontakta oss</a></li>
-                <li><a href="">Skärmanpassning</a></li>
-                <li><a href="">FAQ</a></li>
+            <aside class="hamburger">
+                <input class="side-menu" type="checkbox" id="side-menu" />
+
+                <label class="hamb" for="side-menu">    
+                   <span class="hamb-line"></span>
+                </label>
+
+            <nav class="nav">
+                <ul>
+                    <li><a href="aboutus.html">Om företaget</a></li>
+                    <li><a href="contactus.html">Kontakta oss</a></li>
+                    <li><a href="accessibility.html">Skärmanpassning</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
                 </ul>
-    
-    </nav>
-    
+
+            </nav>
+
+            </aside>
+       
+
     </header>
 <header class="desktopMenu">
      
@@ -38,16 +65,18 @@
                     <img src="pics/brandlogo_104.png" alt=""/>
                 </a>
             </aside>
-<ul>
-<li><a href="aboutus.html">Om företaget</a></li>
-<li><a href="">Kontakta oss</a></li>
-<li><a href="">Skärmanpassning</a></li>
-<li><a href="">FAQ</a></li>
-</ul>
-
-<aside class="cart">
-    <img src="pics/shopping-cart.png" alt="">
-</aside>
+            <ul>
+                <li><a href="aboutus.html">Om företaget</a></li>
+                <li><a href="contactus.html">Kontakta oss</a></li>
+                <li><a href="accessibility.html">Skärmanpassning</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+            </ul>
+            
+            <aside class="cart">
+                <a href="cart.html">
+                    <img src="pics/shopping-cart.png" alt="">
+                </a>
+            </aside>
 </nav>
 </header>
 <main>
@@ -72,13 +101,13 @@
                 <li>
                     <a href="">
                         <img src="pics/unchecked_three.png" alt=""/>
-                        <span>Leverans & betalning</span>
+                        <span>Leverans</span>
                     </a>
                 </li>
                 <li>
                     <a href="">
                         <img src="pics/unchecked_four.png" alt=""/>
-                        <span>Betalning klar</span>
+                        <span>bekräftelse</span>
                     </a>
                 </li>
             </ul>
@@ -133,7 +162,7 @@
 </article>
 
 </main>
-
+<section role="tab" tabindex="0"><aside class="access"><a href="accessibility.html"><img src="pics/accessbility.png" alt="länk till hjälpanpassaning för funktionshinder"></a></aside></section>
 <footer>
 <section class="footer_flex">
 

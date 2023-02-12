@@ -7,27 +7,55 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/mobile.css">
+     
+    <!-- styles -->
+        <link rel="stylesheet" href="css/mobile.css">
+        <link rel="stylesheet" href="css/tablet.css">
+        <link rel="stylesheet" href="css/desktop.css">
+    <!-- end of style  -->
 
-<link rel="stylesheet" href="css/desktop.css">
-
-<title>Document</title>
+<title>PuzzleIgloo - Bekräftelse</title>
+<link rel="icon" type="image/x-icon" href="/pics/favicon.ico">
 </head>
 <body>
-    <header class="header_mobile">       
-        <input class="side-menu" type="checkbox" id="side-menu" />
-        <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+    <header class="header_mobile">    
+
+
+        <aside class="cart">
+            <a href="cart.html">
+                <img src="pics/shopping-cart.png" alt="">
+            </a>
+
+        </aside>
+
+            <aside class="logo">
+                <a href="index.html">
+                    <img src="pics/logo.png" alt="företagets logo"/>
+                </a>
+                
+
+            </aside>
         
-        <nav class="nav">
-            <ul>
-                <li><a href="aboutus.html">Om företaget</a></li>
-                <li><a href="">Kontakta oss</a></li>
-                <li><a href="">Skärmanpassning</a></li>
-                <li><a href="">FAQ</a></li>
+            <aside class="hamburger">
+                <input class="side-menu" type="checkbox" id="side-menu" />
+
+                <label class="hamb" for="side-menu">    
+                   <span class="hamb-line"></span>
+                </label>
+
+            <nav class="nav">
+                <ul>
+                    <li><a href="aboutus.html">Om företaget</a></li>
+                    <li><a href="contactus.html">Kontakta oss</a></li>
+                    <li><a href="accessibility.html">Skärmanpassning</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
                 </ul>
-    
-    </nav>
-    
+
+            </nav>
+
+            </aside>
+       
+
     </header>
 <header class="desktopMenu">
      
@@ -38,16 +66,18 @@
                     <img src="pics/brandlogo_104.png" alt=""/>
                 </a>
             </aside>
-<ul>
-<li><a href="aboutus.html">Om företaget</a></li>
-<li><a href="">Kontakta oss</a></li>
-<li><a href="">Skärmanpassning</a></li>
-<li><a href="">FAQ</a></li>
-</ul>
-
-<aside class="cart">
-    <img src="pics/shopping-cart.png" alt="">
-</aside>
+            <ul>
+                <li><a href="aboutus.html">Om företaget</a></li>
+                <li><a href="contactus.html">Kontakta oss</a></li>
+                <li><a href="accessibility.html">Skärmanpassning</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+            </ul>
+            
+            <aside class="cart">
+                <a href="cart.html">
+                    <img src="pics/shopping-cart.png" alt="">
+                </a>
+            </aside>
 </nav>
 </header>
 <main>
@@ -57,10 +87,10 @@
   
 <section class="forConfirmation">
     <ul class="process">
-        <li><a href="cart.html"><img src="pics/one.png" alt=""><label for="">Varukorg</label></img></a></li>
-        <li><a href="shipping.html"><img src="pics/two.png" alt=""><label for="">Kassa</label></img></a></li>
-        <li><a href="payment.html"><img src="pics/three.png" alt=""><label for="">Leverans & betalning</label></img></a></li>
-        <li><a href="confirmation.html"><img src="pics/four.png" alt=""><label for="">Betalning klar</label></img></a></li>
+        <li><a href="cart.html"><img src="pics/one.png" alt="ett"/><span>Varukorg</span></a></li>
+        <li><a href="shipping.html"><img src="pics/two.png" alt="Två"/><span>Kassa</span></a></li>
+        <li><a href="payment.html"><img src="pics/three.png" alt="tre"/><span>Leverans</span></a></li>
+        <li><a href="confirmation.html"><img src="pics/four.png" alt="fyra"/><span>Bekräftelse</span></a></li>
 
     </ul>
     <h3>Din beställning är bekräftad</h3>
@@ -87,14 +117,14 @@
 
 
 </main>
-
+<section><aside class="access"><a href="accessibility.html"><img src="pics/accessbility.png" alt="länk till hjälpanpassaning för funktionshinder"/></a></aside></section>
 <footer>
 <section class="footer_flex">
 
 <aside class="address_footer">
 
     <aside class="left_footer">
-        <aside class="left_footer_steps"><img src="pics/info.png" alt="" name="info"><label for="info">Om oss</label></aside>
+        <aside class="left_footer_steps"><img src="pics/info.png" alt="" id="info"/><span>Om oss</span></aside>
         <aside><span>Strandvägen 6</span></aside>
         <aside><span>19940 STOCKHOLM</span></aside>
     </aside>
@@ -107,8 +137,8 @@
 <aside class="contact_footer">
     <aside class="right_footer">
         <aside><span>Kontakta oss</span></aside>
-        <aside class="right_footer_steps"><img src="pics/mail .png" alt="" name="info"><label for="info"><a href="mailto:kundtjanst@puzzleigloo.se">Skicka epost</a></label></aside>
-        <aside class="right_footer_steps"><img src="pics/telephone.png" alt="" name="info"><label for="info">08-xxx xx xx</label></aside>
+        <aside class="right_footer_steps"><img src="pics/mail.png" alt="Skicka mail" ><span><a href="mailto:kundtjanst@puzzleigloo.se">Skicka epost</a></span></aside>
+        <aside class="right_footer_steps"><img src="pics/telephone.png" alt="Nummer till företag" ><span>08-xxx xx xx</span></aside>
     </aside>
 </aside>
 

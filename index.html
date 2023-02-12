@@ -8,27 +8,55 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <script src="js/functions.js"></script>
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/mobile.css">
+     
+        <!-- styles -->
+            <link rel="stylesheet" href="css/mobile.css">
+            <link rel="stylesheet" href="css/tablet.css">
+            <link rel="stylesheet" href="css/desktop.css">
+        <!-- end of style  -->
 
-<link rel="stylesheet" href="css/desktop.css">
-
-<title>PuzzleIgloo startsida</title>
+<title>PuzzleIgloo - startsida</title>
+<link rel="icon" type="image/x-icon" href="/pics/favicon.ico">
 </head>
 <body>
-    <header class="header_mobile">       
-        <input class="side-menu" type="checkbox" id="side-menu" />
-        <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+    <header class="header_mobile">    
+
+
+        <aside class="cart">
+            <a href="cart.html">
+                <img src="pics/shopping-cart.png" alt="">
+            </a>
+
+        </aside>
+
+            <aside class="logo">
+                <a href="index.html">
+                    <img src="pics/logo.png" alt="företagets logo"/>
+                </a>
+                
+
+            </aside>
         
-        <nav class="nav">
-            <ul>
-                <li><a href="aboutus.html">Om företaget</a></li>
-                <li><a href="">Kontakta oss</a></li>
-                <li><a href="">Skärmanpassning</a></li>
-                <li><a href="">FAQ</a></li>
+            <aside class="hamburger">
+                <input class="side-menu" type="checkbox" id="side-menu" />
+
+                <label class="hamb" for="side-menu">    
+                   <span class="hamb-line"></span>
+                </label>
+
+            <nav class="nav">
+                <ul>
+                    <li><a href="aboutus.html">Om företaget</a></li>
+                    <li><a href="contactus.html">Kontakta oss</a></li>
+                    <li><a href="accessibility.html">Skärmanpassning</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
                 </ul>
-    
-    </nav>
-    
+
+            </nav>
+
+            </aside>
+       
+
     </header>
 <header class="desktopMenu">
 
@@ -41,14 +69,16 @@
         
 </aside>
 <ul>
-<li><a href="aboutus.html">Om företaget</a></li>
-<li><a href="contactus.html">Kontakta oss</a></li>
-<li><a href="">Skärmanpassning</a></li>
-<li><a href="faq.html">FAQ</a></li>
+    <li><a href="aboutus.html">Om företaget</a></li>
+    <li><a href="contactus.html">Kontakta oss</a></li>
+    <li><a href="accessibility.html">Skärmanpassning</a></li>
+    <li><a href="faq.html">FAQ</a></li>
 </ul>
 
 <aside class="cart">
-<img src="pics/shopping-cart.png" alt="">
+    <a href="cart.html">
+        <img src="pics/shopping-cart.png" alt="">
+    </a>
 </aside>
 </nav>
 </header>
@@ -91,15 +121,79 @@
 
 <section class="productgallery" id="productgallery">
    <h3>Våra produkter</h3>
-   <a href="fullist_500.html"><img src="pics/product1.png" alt=""></a>
-   <a href=""><img src="pics/product1.png" alt=""></a>
-   <a href=""><img src="pics/product1.png" alt=""></a>
-   <a href=""><img src="pics/product1.png" alt=""></a>
-   <a href=""><img src="pics/product1.png" alt=""></a>
+   <marquee behavior="scroll" direction="right">
+    <ul>
+            <li>
+                <a href="fullist_500.html">
+
+                    <picture>
+                    <source srcset="pics/product1.avif" type="image/avif">
+                    <source srcset="pics/product1.webp" type="image/webp">
+                    <img src="pics/product1.png" alt="vår produkt">
+                    </picture>
+                </a>
+            </li>
+        <li>
+            <a href="fullist_500.html">
+
+                <picture>
+                <source srcset="pics/product2.avif" type="image/avif">
+                <source srcset="pics/product2.webp" type="image/webp">
+                <img src="pics/product2.jpg" alt="vår produkt">
+                </picture>
+            </a>
+            
+           </li>
+        <li>   
+            <a href="fullist_500.html">
+
+                <picture>
+                <source srcset="pics/product3.avif" type="image/avif">
+                <source srcset="pics/product3.webp" type="image/webp">
+                <img src="pics/product3.jpg" alt="vår produkt">
+                </picture>
+            </a>
+        
+        
+        </li>
+        <li>
+            <a href="fullist_500.html">
+
+                <picture>
+                    <source srcset="pics/product2.avif" type="image/avif">
+                    <source srcset="pics/product2.webp" type="image/webp">
+                    <img src="pics/product2.jpg" alt="vår produkt">
+                </picture>
+            </a>
+
+        </li>
+        <li>
+            <a href="fullist_500.html">
+
+                <picture>
+                <source srcset="pics/product1.avif" type="image/avif">
+                <source srcset="pics/product1.webp" type="image/webp">
+                <img src="pics/product1.png" alt="vår produkt">
+                </picture>
+            </a>
+        </li>
+        </ul>
+    </marquee>
+
+
+
+
+
+
+
+   
 </section>
 
 
 </main>
+<section><aside class="access"><a href="accessibility.html"><img src="pics/accessbility.png" alt="länk till hjälpanpassaning för funktionshinder"></a></aside></section>
+
+
 
 <footer>
 <section class="footer_flex">

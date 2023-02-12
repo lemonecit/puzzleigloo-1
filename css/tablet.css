@@ -1,4 +1,4 @@
-@media (max-width: 600px) { 
+@media (min-width: 600px) and (max-width:1190px) { 
 
     /* Pierre LEMON - pile2100 
     Css style for Puzzle Igloo Webbutik */
